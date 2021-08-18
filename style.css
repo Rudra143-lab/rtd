@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Fjord+One&family=Patua+One&display=swap');
+
+.heading{
+    width: 100%;
+    margin-top: 0 ;
+    height: 200px;
+    font-size: 26px;
+    font-family: 'Patua One', cursive;
+    box-shadow: 10px 10px 8px  gray;
+}
+
+body{
+   background: url("https://wallpaperaccess.com/full/232546.jpg");
+}
+
+.note{
+    font-family: 'Amaranth', sans-serif;
+    color: cyan;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+canvas{
+    background: rgb(0,0,0,0)!important;
+    height: 300px;
+    width: 400px;
+    border: 8px ridge;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Fjord One', serif;
+}
